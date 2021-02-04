@@ -61,6 +61,17 @@ const boundary = function (n) {
 
 console.log(boundary(100));
 
+//************OR************** */
+
+
+const boundary = function (n) {
+    
+    return (n >= 20 && n <= 100 || n === 400) ? true : false;
+
+}
+
+console.log(boundary(100));
+
 /* EXERCISE 5
 Write a function "strivify" which accepts a string.
 It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
